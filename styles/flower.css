@@ -157,3 +157,39 @@ button:hover {
     font-weight: 600;
     line-height: 35px;
 }
+
+span{
+    color: #E55473;
+}
+
+.deal-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px 380px 100px 380px;
+}
+
+.discount-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.offer-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.offer-description {
+    color: rgba(39, 39, 39, 0.6);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
