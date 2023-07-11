@@ -38,9 +38,78 @@ body {
     font-size: 22px;
     border: none;
     outline: none;
-    background: #E55473;;
+    background: #E55473;
+    ;
     padding: 20px 43px;
     border-radius: 8px;
     color: white;
     margin-top: 20px;
+}
+
+button:hover {
+    background-color: yellowgreen;
+    color: black;
+    cursor: pointer;
+}
+
+.main-head {
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 178px;
+}
+
+.main-description {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+.feature-container {
+    padding: 0px 200px;
+    height: 650px;
+    margin: 130px 130px 0px 130px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.feature-photo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 48px;
+}
+
+.flower1 {
+    padding: 110px 78px 0px 76px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(240, 6, 119, 0.15);
+}
+
+.flower2 {
+    padding: 117px 47px 51px 47px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(4, 228, 240, 0.15);
+}
+
+.flower3 {
+    padding: 67px 75px 0px 75px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(126, 250, 2, 0.15);
+}
+
+.flower-description {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
